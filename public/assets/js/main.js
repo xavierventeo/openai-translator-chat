@@ -49,3 +49,12 @@ translateButton.addEventListener("click", async (event) => {
     // Clear the input field
     textToTranslate = "";
 });
+
+// Add an event listener to the reset button
+// to clear the messages container
+let resetButton = document.querySelector("#reset-button");
+
+resetButton.addEventListener("click", () => {
+    const messagesContainer = document.querySelector("#translation-display");
+    messagesContainer.innerHTML = ""; 
+});
