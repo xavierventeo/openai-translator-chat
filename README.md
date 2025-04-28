@@ -40,6 +40,10 @@ openai-translator-chat/
    ```bash
    npm install
    ```
+4. Create .env file to define the secret for OpenAI KEY Token:
+   ```bash
+   This file has to include OPENAI_API_KEY=sk-proj-......
+   ```
 
 ### Dependencies
 
