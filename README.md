@@ -2,7 +2,7 @@
 
 OpenAI Translator Chat is a basic web application that allows users to translate text into different languages using a simple and user-friendly interface.
 
-The purpose of the project is for training in the use of the ChatGPT API applied to a use case.
+The purpose of the project is for training in the use of the ChatGPT API applied to a use case and integrate Copilot in the development flow.
 
 ## Features
 
