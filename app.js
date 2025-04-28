@@ -14,8 +14,8 @@ const PORT = process.env.PORT || 3000;
 app.use("/", express.static("public"));
 
 // Middleware to parse JSON requests
-//app.use(express.json());
-app.use(express.urlencoded({ extended: true }));
+app.use(express.json());
+//app.use(express.urlencoded({ extended: true }));
 
 // Initialize OpenAI API client
 const openai = new OpenAI({
