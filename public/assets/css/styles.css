@@ -75,3 +75,32 @@ header img {
     min-height: 200px;
     text-align: left;
 }
+
+/* Estilo para los mensajes del usuario */
+.user-message {
+    align-self: flex-end;
+    background-color: #5669fa;
+    color:  #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 12px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+/* Estilo para los mensajes traducidos */
+.translated-message {
+    align-self: flex-start;
+    background-color: #847e7f;
+    color:  #f1f1f1;
+    padding: 8px 12px;
+    border-radius: 12px;
+    max-width: 70%;
+    word-wrap: break-word;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}

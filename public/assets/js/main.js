@@ -10,6 +10,7 @@ translateButton.addEventListener("click", async (event) => {
 
     const userMessage = document.createElement("div");
     userMessage.textContent = textToTranslate;
+    userMessage.classList.add("user-message"); 
     const messagesContainer = document.querySelector("#translation-display");
     messagesContainer.appendChild(userMessage);
     // Scroll to the bottom of the messages container
@@ -37,6 +38,7 @@ translateButton.addEventListener("click", async (event) => {
         // Create a new div element for the translated message
         const translatedMessage = document.createElement("div");
         translatedMessage.textContent = data.translatedText;
+        translatedMessage.classList.add("translated-message"); 
         messagesContainer.appendChild(translatedMessage);
         // Scroll to the bottom of the messages container
         messagesContainer.scrollTop = messagesContainer.scrollHeight;
