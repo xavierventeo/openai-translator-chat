@@ -64,22 +64,5 @@ npm run start
 
 This will start a local development server. Open your browser and navigate to `http://localhost:3000` (or the port specified in your setup) to view the application.
 
-## Customization
-
-- **Add Languages**: Edit the `index.html` file and add more options to the `<select id="language-selector">` element.
-- **Styling**: Modify the `styles.css` file to customize the design.
-
-## Dependencies
-
-This project uses the following dependencies:
-- **Node.js**: JavaScript runtime for running the application.
-- **Express.js** (optional): If you plan to serve the app dynamically.
-- **Other dependencies**: Add any additional libraries or frameworks you use.
-
-To install all dependencies, run:
-```bash
-npm install
-```
-
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
